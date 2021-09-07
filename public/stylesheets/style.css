@@ -7,10 +7,11 @@
 body {
   font-family: 'Roboto';
   color: white;
-  background: url("../images/minions.jpg")
+  background: url('../images/minions.jpg');
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #d8b362;
 }
 
@@ -30,6 +31,14 @@ button {
   border: 2px solid #fff;
   color: #fff;
   overflow: hidden;
+}
+
+.success {
+  background: #42f471;
+}
+
+.err {
+  background: #ff0000;
 }
 
 .container {
